@@ -22,8 +22,8 @@ services:
   sonarqube:
     image: sonarqube:lts
     ports:
-      - "9000:9000"
-      - "9092:9092"
+      - "3000:3000"
+      - "3032:3032"
     networks:
       - jenkins
     environment:
